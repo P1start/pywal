@@ -47,6 +47,7 @@ def get_export_type(export_type):
         "tty": "colors-tty.sh",
         "xresources": "colors.Xresources",
         "yaml": "colors.yml",
+        "termite": "colors-termite",
     }.get(export_type, export_type)
 
 
